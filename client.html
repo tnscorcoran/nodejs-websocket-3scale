@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebSocket Playground</title>
+</head>
+<body>
+
+</body>
+<script>
+
+//  _tc const ws = new WebSocket('ws://localhost:9898/');
+//  fails:   ws = new WebSocket('ws://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com:8080/');
+
+
+// Succeeds
+//const ws = new WebSocket('ws://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com');
+//This is the OCP Route:http://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com
+
+
+// Succeeds
+const ws = new WebSocket('ws://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com');
+//This is the OCP Route:http://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com
+
+
+ws.onopen = function() {
+    console.log('WebSocket Client Connected');
+    ws.send('Hi this is web client.');
+};
+
+ws.onmessage = function(e) {
+  console.log("Received: '" + e.data + "'");
+};
+
+</script>
+</html>
