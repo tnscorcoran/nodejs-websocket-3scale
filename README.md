@@ -25,7 +25,7 @@ It will appear like this - listening for requests:
 
 
 #### Modify client.html and call your local Node Js server
-Open client.html, uncomment the line shown and save the file.
+Open client.html, uncomment the line that calls *localhost* and save the file.
 <img src="./images/client-html.png" alt="drawing" width="600"/> 
 
 Drag client.html to a browser like Chrome. Right click and click ***Inspect***. Click ***Console***
