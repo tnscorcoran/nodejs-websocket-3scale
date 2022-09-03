@@ -30,6 +30,7 @@ Open client.html, uncomment the line that calls *localhost* and save the file.
 
 Drag client.html to a browser like Chrome. Right click and click ***Inspect***. Click ***Console***
 <img src="./images/web browser.png" alt="drawing" width="600"/> 
+
 You'll see every 4 seconds a new message from the web socket server.
 
 Similarly, your server terminal will also be updating:
