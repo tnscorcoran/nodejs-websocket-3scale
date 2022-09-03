@@ -8,18 +8,13 @@
 </body>
 <script>
 
-//  _tc const ws = new WebSocket('ws://localhost:9898/');
-//  fails:   ws = new WebSocket('ws://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com:8080/');
+//  Locally 
+//const ws = new WebSocket('ws://localhost:8080/myws');
 
 
-// Succeeds
-//const ws = new WebSocket('ws://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com');
-//This is the OCP Route:http://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com
-
-
-// Succeeds
-const ws = new WebSocket('ws://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com');
-//This is the OCP Route:http://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com
+// OpenShift Example
+const ws = new WebSocket('ws://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com/myws');
+//Based on OCP Route:   http://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com/
 
 
 ws.onopen = function() {

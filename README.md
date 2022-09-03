@@ -93,6 +93,8 @@ As shown in these two screenshots:
 <img src="./images/openshift-4-deploy-2.png" alt="drawing" width="600"/>
 
 
+As soon as your deployment, represented ny the circle on the canvas turns dark blue, as you see here, click the centre of the circle and screen down to the route. That's your OpenShift Route to the WebSocket API. Copy it
+
 
 x
 
