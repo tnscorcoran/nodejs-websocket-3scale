@@ -50,7 +50,7 @@ Do the following
  - If you don't have one, create a free account on a public registry like DockerHub. 
  - If necessary install a Docker client (or podman) on your laptop.
  - Start the Docker client on your laptop
- - Now login to Dockerhub - with your credentials
+ - Now login to Dockerhub on a terminal - with your credentials
 ```
 docker login
 ``` 
