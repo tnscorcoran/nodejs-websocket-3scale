@@ -47,7 +47,7 @@ CTRL + c
 
 ### Push to a public registry like Dockerhub
 Do the following
- - It you don't have one, create a free account on a public registry like DockerHub. 
+ - If you don't have one, create a free account on a public registry like DockerHub. 
  - If necessary install a Docker client (or podman) on your laptop.
  - Start the Docker client on your laptop
  - Now login to Dockerhub - with your credentials
