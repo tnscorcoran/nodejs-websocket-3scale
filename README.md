@@ -2,6 +2,11 @@
 
 An example Websocket API protected by 3scale, deployed on OpenShift Container Platform
 Based on git hub repo ajb413 nodejs-websocket-examples. Thanks guys.
+### Prerequisites
+- Access to an OpenShift Server. 
+If you don't have one, you can install OpenShift Local on your laptop.
+- Access to a 3scale instance. 
+If you don't have one, you can install a community version, from the Operator Hub within your OpenShift instance
 
 ## Install API Locally
 
@@ -64,5 +69,6 @@ docker push mydockerusername/my-websockets-api:latest
 
 After a few minutes, this should be pushed to Dockerhub where you will see it under the *Repositories* menu once logged in.
 
+## Install Websockets API on OpenShift
 
 mydockerusername/my-websockets-api
