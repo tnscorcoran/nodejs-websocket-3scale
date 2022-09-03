@@ -73,6 +73,7 @@ After a few minutes, this should be pushed to Dockerhub where you will see it un
 
 ### Login to OpenShift and pull down your container from Dockerhub
 Login to OpenShift and select the Developer perspective from the dropdown on the top left
+
 <img src="./images/openshift-1-dev-admin-menu.png" alt="drawing" width="600"/> 
 
 Click the Project dropdown and click Create Project. Name it something like *b-node-websockets* or whatever your preference is
