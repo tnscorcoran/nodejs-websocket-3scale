@@ -69,6 +69,35 @@ docker push mydockerusername/my-websockets-api:latest
 
 After a few minutes, this should be pushed to Dockerhub where you will see it under the *Repositories* menu once logged in.
 
-## Install Websockets API on OpenShift
+## Install and test your Websockets API on OpenShift
+
+### Login to OpenShift and pull down your container from Dockerhub
+Login to OpenShift and select the Developer perspective from the dropdown on the top left
+<img src="./images/openshift-1-dev-admin-menu.png" alt="drawing" width="600"/> 
+
+Click the Project dropdown and click Create Project. Name it something like *b-node-websockets* or whatever your preference is
+<img src="./images/openshift-2-project-create.png" alt="drawing" width="600"/> 
+
+Click **Add** then click **Container Images**
+<img src="./images/openshift-3-add-container-images.png" alt="drawing" width="600"/>
+
+Fill it in as follows
+- pull in your value for ***my-websockets-api*** that you created earlier (in my case *tnscorcoran/node-websocket*)
+- add it to an application called node-websocket
+- ensure Route is not a Secure Route (Advanced Routing options)
+- expose port - 8080
+
+As shown in these two screenshots:
+<img src="./images/openshift-4-deploy-1.png" alt="drawing" width="600"/>
+
+<img src="./images/openshift-4-deploy-2.png" alt="drawing" width="600"/>
+
+
+
+x
+
+x
+
+x
 
 mydockerusername/my-websockets-api
