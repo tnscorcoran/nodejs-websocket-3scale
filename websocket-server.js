@@ -6,8 +6,7 @@ const server = http.createServer();
 server.listen(8080);
 
 const wsServer = new WebSocketServer({
-    httpServer: server,
-    path: "/myws"
+    httpServer: server
 });
 
 wsServer.on('request', function(request) {

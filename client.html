@@ -12,9 +12,18 @@
 //const ws = new WebSocket('ws://localhost:8080/myws');
 
 
-// OpenShift Example
-const ws = new WebSocket('ws://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com/myws');
+// OpenShift Direct Example
+// const ws = new WebSocket('ws://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com');
 //Based on OCP Route:   http://node-websocket-b-node-websockets.apps.cluster-qmqbv.qmqbv.sandbox978.opentlc.com/
+
+
+// 3scale Example
+const ws = new WebSocket('ws://api-3scale-apicast-staging.hsqz8.apps.shared-410.openshift.redhatworkshops.io?user_key=ec2fefeafe17fb42f3883af7c4fc2784');
+
+
+
+
+
 
 
 ws.onopen = function() {
