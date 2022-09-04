@@ -27,7 +27,7 @@
 
 ## 5 Websockets call via APICast fails
 
-<img src="./images/websockets-fail-4-3scale-configuration.png" alt="drawing" width="600"/>
+<img src="./images/websockets-fail-5-apicast-fail.png" alt="drawing" width="600"/>
 
 
 
